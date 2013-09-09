@@ -13,6 +13,9 @@
         <hr />
         <h1>
             Hello {{Name}}!</h1>
+        <hr />
+        <p>
+            1 + 2 = {{1 + 2}}</p>
     </div>
     <script type="text/javascript" src="Scripts/angular.min.js"></script>
 </body>
