@@ -58,6 +58,9 @@
     <Content Include="Phones3OrderBy.aspx" />
     <Content Include="Phones4JSON.aspx" />
     <Content Include="Phones5LinksAndImages.aspx" />
+    <Content Include="Phones6-Detail.aspx" />
+    <Content Include="Phones6-List.aspx" />
+    <Content Include="Phones6RoutingAndViews.aspx" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Todo.aspx" />
     <Content Include="Web.config" />
@@ -113,6 +116,27 @@
     </Compile>
     <Compile Include="Phones5LinksAndImages.aspx.designer.cs">
       <DependentUpon>Phones5LinksAndImages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Phones6-Detail.aspx.cs">
+      <DependentUpon>Phones6-Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Phones6-Detail.aspx.designer.cs">
+      <DependentUpon>Phones6-Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Phones6-List.aspx.cs">
+      <DependentUpon>Phones6-List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Phones6-List.aspx.designer.cs">
+      <DependentUpon>Phones6-List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Phones6RoutingAndViews.aspx.cs">
+      <DependentUpon>Phones6RoutingAndViews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Phones6RoutingAndViews.aspx.designer.cs">
+      <DependentUpon>Phones6RoutingAndViews.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Todo.aspx.cs">

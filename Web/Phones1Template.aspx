@@ -2,7 +2,7 @@
     Inherits="Web.Phones1Template" %>
 
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app id="ng-app">
 <head runat="server">
     <title></title>
 </head>
