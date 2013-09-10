@@ -2,7 +2,7 @@
     Inherits="Web.Phones6RoutingAndViews" %>
 
 <!DOCTYPE html>
-<html ng-app="phoneModule">
+<html ng-app="phoneModule" id="ng-app">
 <head runat="server">
     <title></title>
 </head>
@@ -10,6 +10,9 @@
     <div ng-view>
     </div>
     <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <!--[if lt IE 8]>
+        <script type="text/javascript" src="Scripts/json2.js"></script>
+    <![endif]-->
     <script type="text/javascript">
         angular.module('phoneModule', ['phoneModuleFilters']).config(['$routeProvider', function ($routeProvider) {
             $routeProvider.when('/phones', { templateUrl: 'Phones6-List.aspx', controller: PhoneListController }).

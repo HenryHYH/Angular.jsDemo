@@ -28,6 +28,9 @@
         </tr>
     </table>
     <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <!--[if lt IE 8]>
+        <script type="text/javascript" src="Scripts/json2.js"></script>
+    <![endif]-->
     <script type="text/javascript">
         function PhoneListController($scope) {
             $scope.phones = [

@@ -62,6 +62,7 @@
     <Content Include="Phones6-List.aspx" />
     <Content Include="Phones6RoutingAndViews.aspx" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\json2.js" />
     <Content Include="Todo.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
