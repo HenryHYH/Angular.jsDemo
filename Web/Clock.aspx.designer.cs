@@ -10,7 +10,7 @@
 namespace Web {
     
     
-    public partial class Phones8Rest {
+    public partial class Clock {
         
         /// <summary>
         /// Head1 控件。

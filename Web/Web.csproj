@@ -51,6 +51,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Clock.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="HideAndSeek.aspx" />
     <Content Include="Images\img.jpg" />
@@ -81,6 +82,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clock.aspx.cs">
+      <DependentUpon>Clock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clock.aspx.designer.cs">
+      <DependentUpon>Clock.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
